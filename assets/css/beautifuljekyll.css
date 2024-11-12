@@ -64,6 +64,10 @@ body > main {
   text-decoration: none;
 }
 
+.btn-vas:hover {
+  text-decoration: none;
+}
+
 p {
   line-height: 1.5;
   margin: 1.875rem 0;
