@@ -57,7 +57,7 @@ body > main {
   -moz-box-shadow: 2px 2px 3px #666666;
   box-shadow: 2px 2px 3px #666666;
   font-family: Arial;
-  color: #ffffff;
+  color: #ffffff !important;
   font-size: 20px;
   background: #000000;
   padding: 20px 20px 20px 20px;
