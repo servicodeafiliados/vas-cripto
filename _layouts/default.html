@@ -4,22 +4,25 @@ layout: base
 
 <div class="intro-header"></div>
 
-<main class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
-  {% if page.before-content %}
-    <div class="before-content">
-      {% for file in page.before-content %}
-        {% include {{ file }} %}
-      {% endfor %}
+<main class="container-fluid">
+  <div>
+    <div class="d-flex justify-content-center mt-3">
+      <a href="https://vas-cripto.com/in/kww2lU77PqSD" class="btn-vas mt-3">Faça o seu cadastro</a>
     </div>
-  {% endif %}
-
-  {{ content }}
-
-  {% if page.after-content %}
-    <div class="after-content">
-      {% for file in page.after-content %}
-        {% include {{ file }} %}
-      {% endfor %}
-    </div>
-  {% endif %}
+  </div>
+  
+  <div style="background-color: var(--navbar-col); width: 100%" class="mb-6">
+    <div class="container-md mt-5 mb-5">
+        <div class="row">
+          <div class="text-center col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+            <div class="">
+              <h1>Aplicativos para Celular</h1>
+              <hr class="small">
+              <br />
+              <span class="page-subheading">Baixe para o seu celular o aplicativo na versão para Android ou iOS.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
 </main>
